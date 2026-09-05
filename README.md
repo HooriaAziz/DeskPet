@@ -16,4 +16,4 @@ I then added a HC-SR04 sensor and sudo cooded my plans on how to implement the m
 Finally, I added an animation for his face, which is a place holder for now until I begin the project, where I will make my own with his actual face. 
 
 
-![alt text](PicturesForRobot/StartingSimulation)
+![alt text](PicturesForRobot/StartingSimulation.png)

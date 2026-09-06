@@ -8,10 +8,10 @@ Unfortunaly, a few days later, I read a sad story relating to robots, and overco
 
 Now, I am planning to make my son from a drawing, into a reality, so my friends may clown on me more.
 
-#Day 1
+# Day 1
 I start by planning what I need, picking out what components I think would be useful to what I will do.  
 
-#Hardware:
+# Hardware:
 1. ESP32 DevKit V1: combines powerful dual core processing, wireless, and can connect to my breadboard. Most importantly, it's cheap.
 2. HC-SR04 Sensor: Ultrasonic distance sensor. Useful for the robot to know when it will crash into the wall so turns before it crashes.
 3. SSD1306 OLED: Cheap OLED.
@@ -29,7 +29,7 @@ Finally, I added an animation for his face, which is a place holder for now unti
 
 
 
-#Day 2
+# Day 2
 
 In day two, the Driver Module I was planning to use is not simulated in Velxio, so I substitued it with the closest thing it had, an L293D driver module. I learned how to connect it and code for it, and to replace the lack of motors and wheels, I used mortorized fans instead.
 

@@ -44,3 +44,9 @@ I began working on the motions.h file, where I coded the drive forward, reverse,
 
 
 ![alt text](PicturesForRobot/Day2Sim.png)
+
+
+
+
+I also drew a rough sketch of him as I have lost the original drawing. (Note: please do not hate him too. I am no longer that good at drawing as my hs self)
+![alt text](PicturesForRobot/Richard.png)

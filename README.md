@@ -11,7 +11,7 @@ Now, I am planning to make my son from a drawing, into a reality, so my friends 
 # Day 1
 I start by planning what I need, picking out what components I think would be useful to what I will do.  
 
-# Hardware:
+## Hardware:
 1. ESP32 DevKit V1: combines powerful dual core processing, wireless, and can connect to my breadboard. Most importantly, it's cheap.
 2. HC-SR04 Sensor: Ultrasonic distance sensor. Useful for the robot to know when it will crash into the wall so turns before it crashes.
 3. SSD1306 OLED: Cheap OLED.
@@ -33,4 +33,14 @@ Finally, I added an animation for his face, which is a place holder for now unti
 
 In day two, the Driver Module I was planning to use is not simulated in Velxio, so I substitued it with the closest thing it had, an L293D driver module. I learned how to connect it and code for it, and to replace the lack of motors and wheels, I used mortorized fans instead.
 
+I began working on the motions.h file, where I coded the drive forward, reverse, turn left, turn right, and stop. For some reason, even the wires in the simulation got loose, so I had to rewire it too many times. Finally, I managed to get all my functions simulated correctly, but there does need to be some fixes.
 
+## fixes:
+1. The sensor being made to wait for 3000 nanoseconds is inefficent.
+2. the motors turn right and turn left need to fully stop before it loops again, so I need to add the STop(); function before it once more turns.
+3. Once the sensor exceedes 20cm, the numbers get inaccurate. It is not an issue since I want it to only detect up to 20cm before turning.
+4. Add more mood states, but only for the real Richard (Pronounced "Gerald-D")
+5. Add speed. How fast or slow he can go.
+
+
+![alt text](PicturesForRobot/Day2Sim.png)

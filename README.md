@@ -42,10 +42,10 @@ I began working on the motions.h file, where I coded the drive forward, reverse,
 5. Add speed. How fast or slow he can go.
 
 
-img src = "PicturesForRobot/Day2Sim.png" width = "500">
+<img src = "PicturesForRobot/Day2Sim.png" width = "500">
 
 
 
 
 I also drew a rough sketch of him as I have lost the original drawing. (Note: please do not hate him too. I am no longer that good at drawing as my hs self)
-img src = "PicturesForRobot/Richard.png" width = "500">
+<img src = "PicturesForRobot/Richard.png" width = "500">

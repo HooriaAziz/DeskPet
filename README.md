@@ -35,7 +35,7 @@ In day two, the Driver Module I was planning to use is not simulated in Velxio, 
 
 I began working on the motions.h file, where I coded the drive forward, reverse, turn left, turn right, and stop. For some reason, even the wires in the simulation got loose, so I had to rewire it too many times. Finally, I managed to get all my functions simulated correctly, but there does need to be some fixes.
 
-## fixes:
+## Fixes:
 1. The sensor being made to wait for 3000 nanoseconds is inefficent.
 2. the motors turn right and turn left need to fully stop before it loops again, so I need to add the STop(); function before it once more turns.
 3. Once the sensor exceedes 20cm, the numbers get inaccurate. It is not an issue since I want it to only detect up to 20cm before turning.

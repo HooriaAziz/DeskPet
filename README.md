@@ -24,8 +24,7 @@ I then added a HC-SR04 sensor and psudo cooded my plans on how to implement the 
 
 Finally, I added an animation for his face, which is a place holder for now until I begin the project, where I will make my own with his actual face. 
 
-
-![alt text](PicturesForRobot/StartingSimulation.png)
+<img src = "PicturesForRobot/StartingSimulation.png" width = "500">
 
 
 
@@ -43,10 +42,10 @@ I began working on the motions.h file, where I coded the drive forward, reverse,
 5. Add speed. How fast or slow he can go.
 
 
-![alt text](PicturesForRobot/Day2Sim.png)
+img src = "PicturesForRobot/Day2Sim.png" width = "500">
 
 
 
 
 I also drew a rough sketch of him as I have lost the original drawing. (Note: please do not hate him too. I am no longer that good at drawing as my hs self)
-![alt text](PicturesForRobot/Richard.png)
+img src = "PicturesForRobot/Richard.png" width = "500">

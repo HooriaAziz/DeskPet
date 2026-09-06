@@ -40,6 +40,7 @@ I began working on the motions.h file, where I coded the drive forward, reverse,
 3. Once the sensor exceedes 20cm, the numbers get inaccurate. It is not an issue since I want it to only detect up to 20cm before turning.
 4. Add more mood states, but only for the real Richard (Pronounced "Gerald-D")
 5. Add speed. How fast or slow he can go.
+6. add states instead of just if-else statements
 
 
 <img src = "PicturesForRobot/Day2Sim.png" width = "500">
@@ -48,4 +49,6 @@ I began working on the motions.h file, where I coded the drive forward, reverse,
 
 
 I also drew a rough sketch of him as I have lost the original drawing. (Note: please do not hate him too. I am no longer that good at drawing as my hs self)
+
+
 <img src = "PicturesForRobot/Richard.png" width = "500">
